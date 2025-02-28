@@ -32,7 +32,7 @@ def main():
     # 添加HTML计算器
     st.markdown("---")
     st.subheader('HTML版计算器')
-    with open('streamlit_html/calculator.html', 'r', encoding='utf-8') as file:
+    with open('calculator.html', 'r', encoding='utf-8') as file:
         calculator_html = file.read()
     components.html(calculator_html, height=600)
 
